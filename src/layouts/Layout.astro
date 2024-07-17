@@ -12,8 +12,27 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/wedding_rings_icon_144595.ico" type="image/x-icon" />
 		<meta name="generator" content={Astro.generator} />
+		<!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://invitacion-a-mi-boda.vercel.app/" />
+    <meta property="og:title" content="Invitación a nuestro Enlace Matrimonial" />
+    <meta
+      property="og:description"
+      content="Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne."
+    />
+    <meta property="og:image" content="/images/couple.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://invitacion-a-mi-boda.vercel.app/" />
+    <meta name="twitter:title" content="Invitación a nuestro Enlace Matrimonial" />
+    <meta
+      name="twitter:description"
+      content="Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne."
+    />
+    <meta name="twitter:image" content="/images/couple.jpg" />
 		<title>{title}</title>
 	</head>
 	<body>
